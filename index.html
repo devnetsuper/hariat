@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/res/submark_white.png">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <title>Hariat Tecnologías</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            background-color: transparent;
+        }
+
+        .navbar-logo img {
+            height: 100px;
+        }
+
+        .cover {
+            display: flex;
+            height: 100vh;
+        }
+
+        .cover-left,
+        .cover-right {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .cover-left {
+            background-image: url('res/undraw_virtual_assistant_jjo2.svg');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+
+        .cover-right {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header {
+            font-size: 48px;
+            font-weight: bold;
+            color: #7356EB;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">
+            <img src="res/submark_gradient.png" alt="Logo">
+        </a>
+    </nav>
+    <div class="cover">
+        <div class="cover-left"></div>
+        <div class="cover-right">
+            <h1 class="header"> <br>Hariat,</br> tu asistente para todo. <br> Próximamente en Honduras para teléfonos iOS y Android.</h1>
+        </div>
+    </div>
+
+    <style>
+        .section {
+            padding: 2rem;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .section h3 {
+            text-align: center;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+
+
+        .row {
+            margin: 5%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex-basis: 31%;
+            background-color: #f9f1fe;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 500ms;
+        }
+
+        .column img {
+            width: 100%;
+            height: auto;
+        }
+
+        .column:hover {
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .services-wrapper {
+            max-width: fit-content;
+            max-height: 300px;
+            overflow: hidden;
+            margin: 0.75rem auto;
+        }
+
+        .services-wrapper img {
+            width: 100%;
+        }
+    </style>
+
+    <div class="section"></div>
+    <div class="row">
+        <div class="column">
+            <h3>Responder preguntas específicas</h3>
+            <figure class="services-wrapper">
+                <img src="res/undraw_faq_re_31cw.svg" alt="Service 1 Image">
+            </figure>
+        </div>
+        <div class="column">
+            <h3>Revisar y responder correos electrónicos</h3>
+            <figure class="services-wrapper">
+                <img src="res/undraw_mail_re_duel.svg" alt="Service 2 Image">
+            </figure>
+        </div>
+        <div class="column">
+            <h3>Resumir libros y artículos</h3>
+            <figure class="services-wrapper">
+                <img src="res/undraw_book_lover_re_rwjy.svg" alt="Service 3 Image">
+            </figure>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h3>Generar reportes</h3>
+            <figure class="services-wrapper">
+                <img src="res/undraw_documents_re_isxv.svg" alt="Service 4 Image">
+            </figure>
+        </div>
+        <div class="column">
+            <h3>Facilitar comunicación y traducción</h3>
+            <figure class="services-wrapper">
+                <img src="res/undraw_around_the_world_re_rb1p.svg" alt="Service 5 Image">
+            </figure>
+        </div>
+        <div class="column">
+            <h3>Proporcionar perspectivas y aportes</h3>
+            <figure class="services-wrapper">
+                <img src="res/undraw_body_text_re_9riw.svg" alt="Service 6 Image">
+            </figure>
+        </div>
+    </div>
+
+    <style>
+        footer {
+            background-color: #36393F;
+            padding: 2rem 0;
+            color: #ffffff;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .footer-logo {
+            flex: 1;
+        }
+
+        .footer-logo img {
+            height: 40px;
+        }
+
+        .footer-links {
+            flex: 2;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .links-column {
+            flex: 1;
+        }
+
+        .links-column h3 {
+            margin-bottom: 1rem;
+        }
+
+        .links-column ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .links-column li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .links-column li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="res/main_logo_white.png" alt="Logo" />
+            </div>
+            <div class="footer-links">
+                <div class="links-column">
+                    <h3>Métodos de pago</h3>
+
+                    <ul>
+                        <li>Visa</li>
+                        <li>Mastercard</li>
+                        <li>Amex</li>
+                        <li>PayPal</li>
+                        <li>¡Ahora aceptamos Bitcoin!</li>
+                    </ul>
+                </div>
+
+                <!-- <div class="links-column">
+              <h3>Sobre</h3>
+              <ul>
+                <li><a href="#">Nuestra Historia</a></li>
+                <li><a href="#">Equipo Laboral</a></li>
+                <li><a href="#">Oportunidades de Empleo</a></li>
+              </ul>
+            </div> -->
+
+                <div class="links-column">
+                    <h3>Hariat es para</h3>
+
+                    <ul>
+                        <li>Empresarios</li>
+                        <li>Maestros</li>
+                        <li>Contadores</li>
+                        <li>Gerentes</li>
+                        <li>Doctores</li>
+                        <li>Ingenieros</li>
+                        <li>Corporativo</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        
+    </script>
+</body>
+
+</html>
